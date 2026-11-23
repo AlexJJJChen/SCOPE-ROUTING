@@ -1,0 +1,45 @@
+pipeline,reference,threshold,budget_ms,attribution,upper_fallback,upper_loss,fallbacks,primary,other,licensed
+P1,Zero-shot,0.05,15,PASS,0.0340525145278245,-0.2654894506175353,8.0,"[""C4pa""]","[""hyb_resil""]",True
+P2,Zero-shot,0.05,15,PASS,0.0080045658803617,-0.078290848723049,0.0,"[""C3pref""]",[],False
+P3,Zero-shot,0.05,15,FAIL,0.4074813319707652,-0.0551179480881418,166.0,[],"[""hyb_resil""]",False
+P4,Zero-shot,0.05,15,FAIL,0.4824728524059876,0.0095014720232368,200.0,[],"[""hyb_resil""]",False
+P5,Zero-shot,0.05,15,FAIL,0.3426302073463484,0.0095014720232368,137.0,[],[],False
+P6,Zero-shot,0.05,15,MISSING,,,,[],[],False
+P7,Zero-shot,0.05,15,FAIL,0.0080045658803617,0.4295384508365983,0.0,[],"[""ast_probe""]",False
+Sol + binder,Zero-shot,0.05,15,PASS,0.0120783782835602,-0.2231166010060034,1.0,"[""C3pref""]",[],False
+Sol binder + retry,Zero-shot,0.05,15,PASS,0.0156507318133586,-0.2231166010060034,2.0,"[""C4pa""]","[""hyb_resil""]",True
+Sol deferral,Zero-shot,0.05,15,FAIL,0.3718095358665905,-0.0478271991644793,150.0,[],"[""hyb_resil""]",False
+Sol single,Zero-shot,0.05,15,PASS,0.0080045658803617,-0.0478271991644793,0.0,"[""C3pref""]",[],False
+P1,Zero-shot + binder,0.05,15,PASS,0.0340525145278245,-0.1288409529599385,8.0,"[""C4pa""]","[""hyb_resil""]",True
+P2,Zero-shot + binder,0.05,15,UNRESOLVED,0.0080045658803617,0.0841053664407485,0.0,[],[],False
+P3,Zero-shot + binder,0.05,15,FAIL,0.4074813319707652,0.1036922883321969,166.0,[],"[""hyb_resil""]",False
+P4,Zero-shot + binder,0.05,15,FAIL,0.4824728524059876,0.1820918790059548,200.0,[],"[""hyb_resil""]",False
+P5,Zero-shot + binder,0.05,15,FAIL,0.3426302073463484,0.1820918790059548,137.0,[],[],False
+P6,Zero-shot + binder,0.05,15,MISSING,,,,[],[],False
+P7,Zero-shot + binder,0.05,15,FAIL,0.0080045658803617,0.5715500107538387,0.0,[],"[""ast_probe""]",False
+Sol + binder,Zero-shot + binder,0.05,15,PASS,0.0120783782835602,-0.0825807813717691,1.0,"[""C3pref""]",[],False
+Sol binder + retry,Zero-shot + binder,0.05,15,PASS,0.0156507318133586,-0.0825807813717691,2.0,"[""C4pa""]","[""hyb_resil""]",True
+Sol deferral,Zero-shot + binder,0.05,15,FAIL,0.3718095358665905,0.1129444019149856,150.0,[],"[""hyb_resil""]",False
+Sol single,Zero-shot + binder,0.05,15,UNRESOLVED,0.0080045658803617,0.1129444019149856,0.0,[],[],False
+P1,Graphix + binder,0.05,15,UNRESOLVED,0.0340525145278245,0.0402787726871917,8.0,[],"[""hyb_resil""]",False
+P2,Graphix + binder,0.05,15,FAIL,0.0080045658803617,0.2452496462173924,0.0,[],[],False
+P3,Graphix + binder,0.05,15,FAIL,0.4074813319707652,0.2294228117269658,166.0,[],"[""hyb_resil""]",False
+P4,Graphix + binder,0.05,15,FAIL,0.4824728524059876,0.3768264689830452,200.0,[],"[""hyb_resil""]",False
+P5,Graphix + binder,0.05,15,FAIL,0.3426302073463484,0.3768264689830452,137.0,[],[],False
+P6,Graphix + binder,0.05,15,MISSING,,,,[],[],False
+P7,Graphix + binder,0.05,15,FAIL,0.0080045658803617,0.7300783524365098,0.0,[],"[""ast_probe""]",False
+Sol + binder,Graphix + binder,0.05,15,UNRESOLVED,0.0120783782835602,0.0858868403531007,1.0,[],[],False
+Sol binder + retry,Graphix + binder,0.05,15,UNRESOLVED,0.0156507318133586,0.0858868403531007,2.0,[],"[""hyb_resil""]",False
+Sol deferral,Graphix + binder,0.05,15,FAIL,0.3718095358665905,0.2774718206872531,150.0,[],"[""hyb_resil""]",False
+Sol single,Graphix + binder,0.05,15,FAIL,0.0080045658803617,0.2774718206872531,0.0,[],[],False
+P1,Sol + binder,0.05,15,UNRESOLVED,0.0340525145278245,0.0256270162657971,8.0,[],"[""hyb_resil""]",False
+P2,Sol + binder,0.05,15,FAIL,0.0080045658803617,0.2343032755290779,0.0,[],[],False
+P3,Sol + binder,0.05,15,FAIL,0.4074813319707652,0.25759563304745,166.0,[],"[""hyb_resil""]",False
+P4,Sol + binder,0.05,15,FAIL,0.4824728524059876,0.3642815243753758,200.0,[],"[""hyb_resil""]",False
+P5,Sol + binder,0.05,15,FAIL,0.3426302073463484,0.3642815243753758,137.0,[],[],False
+P6,Sol + binder,0.05,15,MISSING,,,,[],[],False
+P7,Sol + binder,0.05,15,FAIL,0.0080045658803617,0.7217797377593914,0.0,[],"[""ast_probe""]",False
+Sol + binder,Sol + binder,0.05,15,UNRESOLVED,0.0120783782835602,0.0095014720232368,1.0,[],[],False
+Sol binder + retry,Sol + binder,0.05,15,UNRESOLVED,0.0156507318133586,0.0095014720232368,2.0,[],"[""hyb_resil""]",False
+Sol deferral,Sol + binder,0.05,15,FAIL,0.3718095358665905,0.2364166981091243,150.0,[],"[""hyb_resil""]",False
+Sol single,Sol + binder,0.05,15,FAIL,0.0080045658803617,0.2364166981091243,0.0,[],[],False

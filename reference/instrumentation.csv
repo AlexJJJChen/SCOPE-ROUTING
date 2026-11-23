@@ -1,0 +1,13 @@
+stage,size,unit,n,p50,p99
+in_memory_paired_scan_and_bounds,300,ms/batch,100,2.8515224999999997,3.273643420000007
+in_memory_paired_scan_and_bounds,22500,ms/batch,100,5.55226,5.780675880000006
+in_memory_paired_scan_and_bounds,1000000,ms/batch,100,147.64495599999998,159.5348978
+in_memory_scan_to_frontier,300,ms/batch,100,7.1037300000000005,7.83511075
+in_memory_scan_to_frontier,22500,ms/batch,100,10.2544805,11.76414487
+in_memory_scan_to_frontier,1000000,ms/batch,100,155.127743,169.77836524
+interceptor_on_minus_off,10,us/query,100,0.2530000000000001,5.136100000000002
+ivm_ring_kl_two_counters,25,ms/microbatch,140,0.021959,0.0319989399999999
+manifest_rehash_four_files,406320,ms/manifest,100,0.474076,0.49234233
+poset_frontier,300,ms/batch,100,2.733368,2.896447700000002
+poset_frontier,22500,ms/batch,100,3.1125105,3.302235340000001
+poset_frontier,1000000,ms/batch,100,3.9817495,6.969515430000003

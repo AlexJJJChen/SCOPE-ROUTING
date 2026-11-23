@@ -1,0 +1,34 @@
+{
+  "regret_only_ranking": [
+    "FallbackHeavySafe",
+    "GNNPrunedTopK1",
+    "ShockSafeOnlineRepair",
+    "AdaptivePruningRepair",
+    "GNNFullExact",
+    "PreferenceHypernetwork",
+    "OnlineBanditAdapter",
+    "KShortestBeam",
+    "DFLSPOBridge",
+    "StaticExactAnchor",
+    "ParetoRepresentative",
+    "HeuristicCostSP",
+    "RLRoutePolicy",
+    "RandomAdversarialScorer"
+  ],
+  "evidence_licensed_ranking": [
+    "ShockSafeOnlineRepair",
+    "GNNFullExact",
+    "PreferenceHypernetwork",
+    "AdaptivePruningRepair",
+    "FallbackHeavySafe",
+    "DFLSPOBridge",
+    "StaticExactAnchor",
+    "ParetoRepresentative",
+    "HeuristicCostSP",
+    "KShortestBeam",
+    "OnlineBanditAdapter",
+    "RLRoutePolicy",
+    "RandomAdversarialScorer",
+    "GNNPrunedTopK1"
+  ]
+}
